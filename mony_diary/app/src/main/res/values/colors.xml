@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F84501</color>
+    <color name="colorPrimaryDark">#ADF84501</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blac">#000000</color>
+    <color name="text_box_in_color">#FAC8B2</color>
+    <color name="btn_in_color">#F84501</color>
+    <color name="btn_out_color">#000000</color>
+    <color name="btn_text_color">#FFFFFF</color>
+</resources>

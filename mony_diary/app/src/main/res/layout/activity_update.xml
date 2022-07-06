@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:hint="Title"
+        android:id="@+id/update_title"
+        android:background="@drawable/type_box"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_title"
+        android:layout_marginTop="40dp"
+        android:hint="Price"
+        android:id="@+id/update_price"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:background="@drawable/type_box"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/update_send"
+        android:layout_centerHorizontal="true"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:layout_below="@+id/update_price"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style"
+        android:padding="10dp"
+        android:textColor="@color/btn_text_color"
+        />
+
+</RelativeLayout>
